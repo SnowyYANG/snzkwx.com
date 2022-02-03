@@ -48,7 +48,8 @@ else if (!$TOC[$q[1]]) {
             <?php echo "<a href=\"/$lll\"><h1>$TITLE</h1></a>";?>
             <a href="/zh<?php echo $uri2; ?>">中文</a> <a href="/jp<?php echo $uri2; ?>">日本語</a> <a href="/en<?php echo $uri2; ?>">English</a><br>
             <?php
-            if ($l===0) echo '<a href="'.parse_url($uri, PHP_URL_PATH).'">简</a> <a href="?zh=t">繁</a><br><br>';
+            if ($l===0) echo '<a href="'.parse_url($uri, PHP_URL_PATH).'">简</a> <a href="?zh=t">繁</a><br>';
+            echo '<br>';
             foreach($TOC as $k=>$v) {
                 if ($k==='br1'||$k==='br2') echo '<br>';
                 else {

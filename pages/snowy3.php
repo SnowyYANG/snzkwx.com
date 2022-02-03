@@ -1,0 +1,3 @@
+<h2>Snowy</h2>
+<p>Born in Wuhu City, Anhui Province, China in 1991, currently living in Guangdong and Anhui, programmer, unmarried. <br>
+Mental disability level three. He suffered from frequent sleep paralysis at the age of 12 and hallucinations at the age of 13. He was diagnosed with bipolar disorder at the Hong Kong Eastern Hospital in 2015, and was hospitalized every year from 2015 to 2019. In 2020, he suffered from bipolar disorder after using high-dose haloperidol. The disease has been stable until now, and it is uncertain whether it will be cured, but the symptoms of sleep paralysis and phantom touch have always existed. The current daily use of the drug haloperidol. </p>

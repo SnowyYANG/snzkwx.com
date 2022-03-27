@@ -23,6 +23,7 @@ $TOC=[
     'story'=>['原案','原案','原案','Story'],
     'more'=>['补充设定','補充設定','補足設定','More Settings'],
     'br1'=>[],
+    'github'=>['GitHub','GitHub','GitHub','GitHub'],
     'art'=>['概念艺术','概念藝術','コンセプトアート','Concept Art'],
     'game'=>['游戏','遊戲','ゲーム','Game'],
     'br2'=>[],
@@ -53,8 +54,13 @@ else if (!$TOC[$q[1]]) {
             foreach($TOC as $k=>$v) {
                 if ($k==='br1'||$k==='br2') echo '<br>';
                 else {
-                    $href=$k==='contact'?'mailto:snowyyang@outlook.com':"/$lll/$k$zht";
-                    echo "<a href=\"$href\">$v[$ll]</a><br>";
+                    $_blank='target="_blank"';
+                    switch($k) {
+                        case 'github':$href='https://github.com/SnowyYANG/Delusions';break;
+                        case 'contact':$href='mailto:snowyyang@outlook.com';break;
+                        default:$href="/$lll/$k$zht";$_blank='';
+                    }
+                    echo "<a href=\"$href\" $_blank>$v[$ll]</a><br>";
                 }
              } ?>
         </nav>

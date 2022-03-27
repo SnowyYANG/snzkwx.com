@@ -18,7 +18,7 @@ if ($l===1) {
 }
 $uri2=substr($uri,3);
 
-$TITLE=['少女躁狂妄想',null,'とある躁うつ少女の妄想',"One Girl's Manic Delusion"][$l];
+$TITLE=['少女躁狂妄想',null,'とある躁うつ少女の妄想',"The Delusions of a Young Girl"][$l];
 $TOC=[
     'story'=>['原案','原案','原案','Story'],
     'settings'=>['补充设定','補充設定','補足設定','Settings'],

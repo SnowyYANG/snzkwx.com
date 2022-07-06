@@ -1,5 +1,9 @@
 <?php
 $uri=$_SERVER["REQUEST_URI"];
+if ($uri===''||$uri==='/') {
+    require_once 'pages/cover.php';
+    exit;
+}
 $q=$_REQUEST['q'];
 if ($q[0]==='/') $q=substr($q,1);
 $q=explode('/',$q,3);
